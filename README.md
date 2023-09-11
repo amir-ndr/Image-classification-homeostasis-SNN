@@ -11,12 +11,6 @@ In this project, we aim to extract meaningful features from images utilizing con
 - Handling of grayscale images with a single channel.
 - Usage of 5x5 kernels for the convolution operation.
 
-## Convolution and Max-Pooling
-
-The project delves into the mathematical concept of convolution, which involves modifying one function (kernel) based on another (input image). Convolution is fundamental to signal and image processing, and it operates in both 1D and 2D spaces. In image processing, convolution transforms an image by applying a kernel to each pixel and its local neighbors, extracting essential features.
-
-Max-pooling is the process of feature extraction from convolutional layer outputs. This method, particularly Max Pooling, reduces data dimensions by retaining only the highest values in a pool, effectively capturing significant features.
-
 ## Learning Features with STDP
 
 The project uses grayscale images of faces, converts them to grayscale, and applies Time to First Spike (TTFS) encoding. TTFS encoding focuses on the timing of the first spike to transmit information. Convolutional and pooling connections are established in the model, allowing the weights of the filters to be trained by the STDP rule.
